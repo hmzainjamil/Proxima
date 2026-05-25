@@ -28,6 +28,58 @@ Use ChatGPT, Claude, Gemini & Perplexity directly inside your coding tools — t
 
 ---
 
+
+---
+
+## CONCEPTS
+
+| Concept | Description |
+|---|---|
+| **Proxima** | Core concept — primary building block of proxima multi llm gateway |
+| **Gateway** | Execution primitive handling gateway operations |
+| **Llm** | Integration layer for LLM connectivity |
+| **Routing** | Configuration and routing for routing behavior |
+| **Claude Code** | Anthropic CLI — agentic coding and task execution |
+| **MCP** | Model Context Protocol — tool exposure standard |
+| **Skill** | Self-contained Claude Code capability module |
+| **Tier-0** | Free model routing: Groq → Ollama → DeepSeek |
+| **Context Window** | Token budget per session — managed via compression |
+| **Async Agent** | Background task agent — non-blocking parallel execution |
+
+---
+
+## 🔥 Hot Commands
+
+```bash
+# Clone and explore
+gh repo clone hmzainjamil/proxima-multi-llm-gateway
+cd proxima-multi-llm-gateway
+
+# Load as Claude Code skill
+cp -r . ~/.claude/skills/proxima-multi-llm-gateway/
+
+# Run via MAE pipeline
+mae run "proxima multi llm gateway - primary workflow"
+
+# Quick invoke via Claude
+claude -p "using proxima capabilities: run main workflow"
+```
+
+## ■ tip
+> **Route sub-tasks to Tier-0 first** (Groq/Ollama) — saves Claude quota for synthesis only. Use `mae run` to auto-decompose complex tasks.
+
+---
+
+## ☠️ STARTUPS / BUSINESSES
+
+- **Digital agencies** — deploy as client delivery multiplier, 10× throughput
+- **SaaS founders** — integrate into existing Claude Code stack, zero infra overhead
+- **AI engineers** — fork and extend with custom domain logic
+- **Freelancers** — use as billable-hours accelerator for proxima + gateway work
+
+---
+
+
 ## Demo
 
 **App Demo · CLI · Webhook Live Chat & Battle · Application Overview**
@@ -881,3 +933,11 @@ Proxima is licensed for **non-commercial use only**. See [LICENSE](LICENSE) for 
 Made by [Zen4-bit](https://github.com/Zen4-bit) · Every ⭐ matters 💕
 
 </div>
+
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=hmzainjamil/proxima-multi-llm-gateway&type=Date)](https://star-history.com/#hmzainjamil/proxima-multi-llm-gateway&Date)
+
